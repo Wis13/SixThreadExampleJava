@@ -26,6 +26,7 @@ public class GrubHub {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
+
     @AfterMethod
     public void tearDown(){
         driver.close();
