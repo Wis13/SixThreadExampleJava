@@ -31,7 +31,6 @@ public class GrubHub {
         driver.close();
     }
 
-
     @Test
     public void testLoginPage(){
         driver.get("https://www.grubhub.com/");
